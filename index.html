@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/174/174872.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sidebar">
+    <div class="logo">  
+     <a href="#">
+        <img src="https://www.edigitalagency.com.au/wp-content/uploads/Spotify-Logo-png-RGB-White.png" alt="logo">
+     </a>
+   </div>
+
+   <div class="navigation">
+    <ul>
+        <li>
+            <a href="#">
+                <span><i class="fa-sharp fa-solid fa-house"></i></span>
+                <span>Home</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                <span>Search</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <span><i class="fa-solid fa-bars-staggered"></i></span>
+                <span>Your Library</span>
+            </a>
+        </li>
+    </ul>
+
+   </div>
+
+   <div class="navigation">
+    <ul>
+        <li>
+            <a href="#">
+                <span><i class="fa-solid fa-plus"></i></span>
+                <span>Create Playlist</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <span><i class="fa-brands fa-gratipay"></i></span>
+                <span>Liked Songs</span>
+            </a>
+        </li>
+
+    </ul>
+
+   </div>
+   <div class="policies">
+    <ul>
+        <li>
+            <a href="#">Cookies</a>
+        </li>
+        <li>
+            <a href="#">Privacy</a>
+        </li>
+    </ul>
+
+   </div>
+</div>
+
+<div class="main-container">
+    <div class="topbar">
+        <div class="prev-nxt-buttons">
+            <button><i class="fa-solid fa-chevron-left"></i></button>
+            <button><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="#">Premium</a>
+                </li>
+                <li>
+                    <a href="#">Support</a>
+                </li>
+                <li>
+                    <a href="#">Download</a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                    <a href="#">Sign up</a>
+                </li>
+                
+            </ul>
+            <button type="button">Log in</button>
+        </div>
+    </div>
+
+    <div class="spotify-playlists">
+        <h2>Focus</h2>
+        <div class="list">
+            <div class="item">
+                <img src="https://i.scdn.co/image/ab67706f00000002ca5a7517156021292e5663a6" alt="">
+            
+                <h4>Peaceful Piano</h4>
+                <p>Relax and indlude with beautiful piano pieces</p>
+            </div>
+
+            <div class="item">
+                <img src="https://i.scdn.co/image/ab67616d0000b273e3a03829bed283a3d72bcdf0" alt="">
+                
+                <h4>Deep Focus</h4>
+                <p>Keep calm and focus with ambient and post...</p>
+            </div>
+
+            <div class="item">
+                <img src="https://i.scdn.co/image/ab67706f000000025d87659dcadef82dd0e73f56" alt="">
+               
+                <h4>Instrumnetal Study</h4>
+                <p>Focus with soft study music in the...</p>
+            </div>
+
+            <div class="item">
+                <img src="https://i.scdn.co/image/ab67706f000000025b0a7b8408322a3b9ed15e1e" alt="">
+              
+                <h4>Chill lofi study beats</h4>
+                <p>The perfect study beats. Find your focus, crush...</p>
+            </div>
+
+            <div class="item">
+                <img src="https://i.scdn.co/image/ab67706f000000025ea54b91b073c2776b966e7b" alt="">
+             
+                <h4>Jazz Vibes</h4>
+                <p>The Orginal chill instrumentel beats...</p>
+            </div>
+
+            <div class="item">
+                <img src="https://i.scdn.co/image/ab67706f00000002724554ed6bed6f051d9b0bfc" alt="">
+               
+                <h4>Focus Flow</h4>
+                <p>Uptempo instrumental hip hop beats.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--Spotify playlists section two-->
+    <div class="spotify-playlists">
+        <h2>Spotify Playlists</h2>
+        <div class="list">
+            <div class="item">
+                <img src="https://i.scdn.co/image/ab67706f00000002d0e440c77d9128377cdeba4f" alt="">
+                
+                <h4>Today's Top Hits</h4>
+                <p>Miley Cyrus is on the top of the Hottest 50!</p>
+            </div>
+
+            <div class="item">
+                <img src="https://i.scdn.co/image/ab67706c0000da8406697cc7c96fa0caae2c999c" alt="">
+                <div class="play">
+                    <span class="fa fa-play"></span>
+                </div>
+                <h4>RapCaviar</h4>
+                <p>New Music by Gucci Mane, Kodak Black an...</p>
+            </div>
+
+            <div class="item">
+                <img src="https://i.scdn.co/image/ab67706f00000002b0fe40a6e1692822f5a9d8f1" alt="">
+                
+                <h4>All Out 2010s</h4>
+                <p>The biggest songs of the 2010s</p>
+            </div>
+
+            <div class="item">
+                <img src="https://i.scdn.co/image/ab67706f0000000278b4745cb9ce8ffe32daaf7e" alt="">
+               
+                <h4>Rock Classics</h4>
+                <p>Rock lengends & epic songs that continue to...</p>
+            </div>
+
+            <div class="item">
+                <img src="https://i.scdn.co/image/ab67706f0000000208ca740941aa65b5e205c361" alt="">
+                
+                <h4>Chill Hits</h4>
+                <p>Kick back to the best new and recent chill...</p>
+            </div>
+
+            <div class="item">
+                <img src="https://i.scdn.co/image/ab67706f0000000236a358120ca8bf8ce7244202" alt="">
+               
+                <h4>Viva Latino</h4>
+                <p>Today's Top Latin hits, elevando nuestra...</p>
+            </div>
+
+        </div>
+
+    </div>
+     <!--Spotify playlists section two ends here-->
+ 
+
+    <div class="preview">
+        <div class="text">
+            <h6>Preview of Spotify</h6>
+            <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+        </div>
+        <div class="button">
+            <button type="button">Sign up free</button>
+
+        </div>
+
+    </div>
+    <hr size="0.1">
+
+</div>
+
+</body>
+</html>
